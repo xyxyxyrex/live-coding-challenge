@@ -1,0 +1,22 @@
+.wrapper {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  text-align: center;
+  background-color: red;
+  border: 1px solid red;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+}
